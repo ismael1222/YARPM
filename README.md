@@ -27,3 +27,39 @@ And i thought (yes sometimes i do that): Why only names? lets go all in: GUI, cu
 You cant right now.
 
 ~~This is the first commit, wait a few years and you'll be dissappointed, i mean, you seriously expected something from me?~~
+
+### TO-DO
+
+- [X] Window prototype
+  - [x] Integrate webview.h
+  - [X] Open basic window from main.cpp
+  - [x] Do an alert on the HTML FROM main.cpp
+
+- [X] HTML
+  - [X] Load index.html
+  - [X] Looks good?
+
+- [X] C++ <=> JS
+  - [X] Create a function in c++ for JS to call
+  - [X] Back and forth: C++ to JS and JS' response to C++
+
+- [ ] Processes backend
+  - [ ] Scan processes list
+  - [ ] Filter non-supported processes
+  - [ ] Send supported processes list to JS
+  - [ ] Option to show all processes, even unsupported ones
+
+- [ ] Basic UI
+  - [ ] Show processes list
+  - [ ] Allow toggle and priority order
+  - [ ] Prepare structure for custom RichPresence items
+
+- [ ] Discord connection
+  - [ ] Implement IPC or Game SDK
+  - [ ] Send activity to Discord APP
+  - [ ] Update RP
+
+- [ ] Optimization and styling
+  - [ ] Upgrade style (make it look cool)
+  - [ ] Doc and clean
+  - [ ] Do release for easy install
