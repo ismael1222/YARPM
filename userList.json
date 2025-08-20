@@ -1,0 +1,12 @@
+{
+    "firefox": {
+        "desc": "Firefox browser",
+        "enabled": false,
+        "icon": "URL",
+        "name": "Firefox",
+        "showDespiteTray": false,
+        "start": null,
+        "tray": true,
+        "type": 0
+    }
+}

@@ -1,25 +1,14 @@
 newElementsP = document.getElementById("newElements");
 exitedElementsP = document.getElementById("exitedElements");
-counterElement = document.getElementById("counter")
+counterElement = document.getElementById("counter");
+allElements = document.getElementById("allElements");
 var oldElements = [];
 var counter = 0;
-function hasAthatBdoesnt(A, B) {
-    var result = [];
-    A.forEach(item => {
-        if (! B.includes(item)) {
-            result.push(item)
-        }
-    })
-    return result;
-}
+
 setInterval(() => {
     queryProcesses().then(currentElements => {
-        let newItems = hasAthatBdoesnt(currentElements, oldElements); // update new elements
-        newElementsP.innerHTML = newItems // increment counter
-        counterElement.innerHTML = ++ counter // update old elements
-        let exitedElements = hasAthatBdoesnt(oldElements, currentElements);
-        exitedElementsP.innerHTML = exitedElements; // newelements get old
-        oldElements = currentElements;
+        let allItems = currentElements;
+        allElements.innerHTML = JSON.stringify(allItems);
+        oldElements = currentElements; // newelements get old
     })
-
 }, 1000);

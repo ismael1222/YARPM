@@ -1,8 +1,31 @@
 {
-    "exampleProcess":["Cute process name here", false, "picture url here"],
-    "discord":["Idle", false, ""],
-    "firefox":["Firefox", false, ""],
-    "codium":["VSCodium", true, ""],
-    "steam":["Steam", true, ""],
-    "gimp":["GIMP", true, ""]
+    "exampleprocess": {
+        "name": "Example App",
+        "icon": "URL",
+        "type": 0,
+        "start": null,
+        "enabled": false,
+        "Tray": false,
+        "desc": "Default testing process, should never be seen"
+    },
+    "steam": {
+        "name": "Steam",
+        "desc": "Steam app",
+        "icon": "URL",
+        "type": 0,
+        "start": null,
+        "enabled": false,
+        "tray": true,
+        "showDespiteTray": false
+    },
+    "firefox": {
+        "name": "Firefox",
+        "desc": "Firefox browser",
+        "icon": "URL",
+        "type": 0,
+        "start": null,
+        "enabled": false,
+        "tray": true,
+        "showDespiteTray": false
+    }
 }
