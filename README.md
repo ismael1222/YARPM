@@ -66,23 +66,32 @@ You cant right now.
 
 <details>
 <summary>Idea (dont read plz)</summary>
-Menu de settings
-Foto,
-
-nombre,
-
-tipo(jugando, escuchando, etc),
-
-hora de inicio,
-
-enable/disable show,
-
-showDespiteKnownForBeingMinimizable (Gris si es steam o Telegram o algo asi, se puede activar. mientras no este activo, enable/disable estará bloqueado en disable),
-
-Descripcion,
-
-eliminar // (reset defaults si esta el proceso en defaultJson, no dejarle eliminarlo)
-
+<details>
+<summary>Menu de Configuración de Proceso</summary>
+<pre>
+┌─────────────────────────────────────────────────────────────────────────┐
+│  [Foto/Icono del proceso]                                               │
+│                                                                         │
+│  Nombre: [Nombre del proceso]                                           │
+│                                                                         │
+│  Tipo: [Selector: Jugando, Escuchando, etc.]                            │
+│                                                                         │
+│  Hora de inicio: [Selector de fecha/hora]                               │
+│                                                                         │
+│  Mostrar: [Enable/Disable]                                              │
+│                                                                         │
+│  Mostrar a pesar de ser minimizable: [Checkbox grisado]                 │
+│    (Solo disponible para apps como Steam/Telegram)                      │
+│    (Cuando está desactivado, bloquea "Mostrar" en Disable)              │
+│                                                                         │
+│  Descripción: [Área de texto multilínea]                                │
+│                                                                         │
+│  [Eliminar]  [Restablecer valores predeterminados]                      │
+│    (Restablecer solo visible si el proceso está en defaultJson)         │
+│    (Eliminar bloqueado si el proceso está en defaultJson)               │
+└─────────────────────────────────────────────────────────────────────────┘
+</pre>
+</details>
 Lista de procesos soportados/agregados que alguna vez han estado activos
 
 Lista de procesos soportados/agregados que estan activos actualmente, golden surrounding el que esta currently showing (because of esta primero en el orden de prioridad)
