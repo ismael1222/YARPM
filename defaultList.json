@@ -1,0 +1,8 @@
+{
+    "exampleProcess":["Cute process name here", false, "picture url here"],
+    "discord":["Idle", false, ""],
+    "firefox":["Firefox", false, ""],
+    "codium":["VSCodium", true, ""],
+    "steam":["Steam", true, ""],
+    "gimp":["GIMP", true, ""]
+}
