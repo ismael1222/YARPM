@@ -44,9 +44,9 @@ You cant right now.
   - [X] Back and forth: C++ to JS and JS' response to C++
 
 - [ ] Processes backend
-  - [ ] Scan processes list
+  - [X] Scan processes list
   - [ ] Filter non-supported processes
-  - [ ] Send supported processes list to JS
+  - [X] Send ~~supported~~ processes list to JS
   - [ ] Option to show all processes, even unsupported ones
 
 - [ ] Basic UI
