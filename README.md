@@ -63,3 +63,29 @@ You cant right now.
   - [ ] Upgrade style (make it look cool)
   - [ ] Doc and clean
   - [ ] Do release for easy install
+
+<details>
+<summary>Idea (dont read plz)</summary>
+Menu de settings
+ Foto,
+
+ nombre,
+
+ tipo(jugando, escuchando, etc),
+
+ hora de inicio,
+
+ enable/disable show,
+
+ showDespiteKnownForBeingMinimizable (Gris si es steam o Telegram o algo asi, se puede activar. mientras no este activo, enable/disable estará bloqueado en disable),
+
+ Descripcion,
+
+ eliminar // (reset defaults si esta el proceso en defaultJson, no dejarle eliminarlo)
+
+Lista de procesos soportados/agregados que alguna vez han estado activos
+
+Lista de procesos soportados/agregados que estan activos actualmente, golden surrounding el que esta currently showing (because of esta primero en el orden de prioridad)
+
+la prioridad se "guarda" como la posicion en el json de ese item, asi no tengo que cambiar la prioridad en numeros (plus, si el usuario pone el de abajo del todo a arriba del todo, tendria que cambiar todos los numeros de todos los items. esta solucion lo hace "automaticamente" ya que se lleva por la posicion del item)
+</details>
