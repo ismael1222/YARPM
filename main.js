@@ -1,1 +1,3 @@
-queryProcesses("test").then(res => {})
+queryProcesses("test").then(res => {
+    alert(res)
+})
