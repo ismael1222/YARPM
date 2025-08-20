@@ -31,9 +31,9 @@ You cant right now.
 ### TO-DO
 
 - [X] Window prototype
-  - [x] Integrate webview.h
+  - [X] Integrate webview.h
   - [X] Open basic window from main.cpp
-  - [x] Do an alert on the HTML FROM main.cpp
+  - [X] Do an alert on the HTML FROM main.cpp
 
 - [X] HTML
   - [X] Load index.html

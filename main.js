@@ -1,3 +1,3 @@
 queryProcesses("test").then(res => {
-    alert(res)
+    console.log(res)
 })

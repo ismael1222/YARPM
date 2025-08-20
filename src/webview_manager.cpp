@@ -1,4 +1,5 @@
 #include "webview_manager.h"
+#include "process_linux.h"
 #include <iostream>
 #include <filesystem>
 
@@ -18,10 +19,20 @@ WebviewManager::WebviewManager(int width, int height, const std::string &title)
 void WebviewManager::setupBindings() {
     w.bind("queryProcesses", [](std::string req) -> std::string {
         std::cout << req << std::endl;
-        return "\"Gotyaaa\"";
-        // placeholder
+        auto processes = getLinuxProcesses();
+        std::string json = "[";
+        for (size_t i = 0; i < processes.size(); ++i) {
+            json += "\"" + processes[i] + "\"";
+            if (i != processes.size() - 1) {
+                json += ",";
+            }
+        }
+        json += "]";
+        std::cout << json << std::endl;
+        return json;
     });
 }
+
 
 void WebviewManager::run() {
     w.run();
