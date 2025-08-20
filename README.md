@@ -40,7 +40,7 @@ You cant right now.
   - [X] Looks good?
 
 - [X] C++ <=> JS
-  - [X] Create a function in c++ for JS to call
+  - [X] Create a function in C++ for JS to call
   - [X] Back and forth: C++ to JS and JS' response to C++
 
 - [ ] Processes backend
