@@ -45,8 +45,8 @@ You cant right now.
 
 - [ ] Processes backend
   - [X] Scan processes list
-  - [ ] Filter non-supported processes
-  - [X] Send ~~supported~~ processes list to JS
+  - [X] Filter non-supported processes
+  - [X] Send supported processes list to JS
   - [ ] Option to show all processes, even unsupported ones
 
 - [ ] Basic UI
