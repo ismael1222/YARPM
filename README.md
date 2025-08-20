@@ -47,22 +47,19 @@ You cant right now.
   - [X] Scan processes list
   - [X] Filter non-supported processes
   - [X] Send supported processes list to JS
-  - [ ] Option to show all processes, even unsupported ones
+  - [ ] ~~Option to show all processes, even unsupported ones~~ on hold until GUI is ready
 
-- [ ] Basic UI
-  - [ ] Show processes list
-  - [ ] Allow toggle and priority order
-  - [ ] Prepare structure for custom RichPresence items
+- [ ] Styling and functionability
+  - [X] Basic styling
+  - [ ] Menu items/labels
+  - [ ] Show processes instead of placeholders
+  - [ ] Save custom settings
+  - [ ] Show RPC Preview
 
 - [ ] Discord connection
   - [ ] Implement IPC or Game SDK
   - [ ] Send activity to Discord APP
   - [ ] Update RP
-
-- [ ] Optimization and styling
-  - [ ] Upgrade style (make it look cool)
-  - [ ] Doc and clean
-  - [ ] Do release for easy install
 
 <details>
 <summary>Idea (dont read plz)</summary>
