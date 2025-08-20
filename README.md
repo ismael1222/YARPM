@@ -67,21 +67,21 @@ You cant right now.
 <details>
 <summary>Idea (dont read plz)</summary>
 Menu de settings
- Foto,
+Foto,
 
- nombre,
+nombre,
 
- tipo(jugando, escuchando, etc),
+tipo(jugando, escuchando, etc),
 
- hora de inicio,
+hora de inicio,
 
- enable/disable show,
+enable/disable show,
 
- showDespiteKnownForBeingMinimizable (Gris si es steam o Telegram o algo asi, se puede activar. mientras no este activo, enable/disable estará bloqueado en disable),
+showDespiteKnownForBeingMinimizable (Gris si es steam o Telegram o algo asi, se puede activar. mientras no este activo, enable/disable estará bloqueado en disable),
 
- Descripcion,
+Descripcion,
 
- eliminar // (reset defaults si esta el proceso en defaultJson, no dejarle eliminarlo)
+eliminar // (reset defaults si esta el proceso en defaultJson, no dejarle eliminarlo)
 
 Lista de procesos soportados/agregados que alguna vez han estado activos
 
