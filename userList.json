@@ -8,5 +8,15 @@
         "start": null,
         "tray": true,
         "type": 0
+    },
+    "yarpm": {
+        "desc": "YARPM Settings menu",
+        "enabled": false,
+        "icon": "URL",
+        "name": "YARPM Settings",
+        "showDespiteTray": false,
+        "start": null,
+        "tray": true,
+        "type": 0
     }
 }

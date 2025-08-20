@@ -4,7 +4,7 @@ SRC := $(wildcard src/*.cpp)
 OBJ := $(SRC:.cpp=.o)
 TARGET := bin/yarpm
 
-.PHONY: all linux windows clean
+.PHONY: all linux windows run clean
 
 all:
 	@echo "chose 'make linux' or 'make windows'"
@@ -22,7 +22,6 @@ windows: $(OBJ)
 
 %.o: %.cpp
 	@$(CXX) $(CXXFLAGS) -c $< -o $@
-
 
 clean:
 	rm -f $(OBJ) $(TARGET)

@@ -27,5 +27,15 @@
         "enabled": false,
         "tray": true,
         "showDespiteTray": false
+    },
+    "yarpm":{
+                "name": "YARPM Settings",
+        "desc": "YARPM Settings menu",
+        "icon": "URL",
+        "type": 0,
+        "start": null,
+        "enabled": false,
+        "tray": true,
+        "showDespiteTray": false
     }
 }

@@ -5,16 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YARPM</title>
-    <style>
-        #allItems {
-            color: blue;
-        }
-    </style>
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <p id="allElements"></p>
+    <div class="container">
+        <div class="column settings">
+            <div class="card title">
+                <center><p>Settings</p></center>
+            </div>
+            <div class="card preview">
+                
+            </div>
+            <pre class="">
+[Foto/Icono del proceso]
+Nombre: [Nombre del proceso]
+Tipo: [Selector: Jugando, Escuchando, etc.]
+Hora de inicio: [Selector de fecha/hora]
+Mostrar: [Enable/Disable]
+Mostrar a pesar de ser minimizable: [Checkbox grisado]
+(Solo disponible para apps como Steam/Telegram)
+(Cuando está desactivado, bloquea "Mostrar" en Disable)
+Descripción: [Área de texto multilínea]
+[Eliminar]  [Restablecer valores predeterminados]
+(Restablecer solo visible si el proceso está en defaultJson)
+(Eliminar bloqueado si el proceso está en defaultJson)
+            </pre>
+        </div>
+        <div class="column processes">
+        </div>
+        <div class="column processes active">
+        </div>
+        
+    </div>  
     <script src="./main.js"></script>
 </body>
 
