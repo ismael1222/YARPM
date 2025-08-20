@@ -2,4 +2,4 @@
 #include <vector>
 #include <string>
 
-std::vector<std::string> getLinuxProcesses();
+std::string getLinuxProcesses();

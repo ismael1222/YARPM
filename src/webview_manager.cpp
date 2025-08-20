@@ -18,18 +18,8 @@ WebviewManager::WebviewManager(int width, int height, const std::string &title)
 
 void WebviewManager::setupBindings() {
     w.bind("queryProcesses", [](std::string req) -> std::string {
-        std::cout << req << std::endl;
         auto processes = getLinuxProcesses();
-        std::string json = "[";
-        for (size_t i = 0; i < processes.size(); ++i) {
-            json += "\"" + processes[i] + "\"";
-            if (i != processes.size() - 1) {
-                json += ",";
-            }
-        }
-        json += "]";
-        std::cout << json << std::endl;
-        return json;
+        return processes;
     });
 }
 
