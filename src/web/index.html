@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YARPM</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+        <div class="appID" id="appID">
+            <button>kk done</button>
+            <center>Le big tutoriale: <br>custom name</center>
+        </div>
+    <div class="container" id="main">
+        <div class="column settings">
+            <div class="card title">
+                <center>
+                    <p>Settings</p>
+                </center>
+            </div>
+            <div class="card minheight">
+                <p>PhotoURL:</p>
+                <input type="url" name="PhotoURL" id="PhotoURL">
+                <p><a onclick="showAppId()">AppID:</a></p>
+                <input type="text" name="name" id="name">
+                <p>Type</p>
+                <select name="type" id="type">
+                    <option value="0">Playing...</option>
+                    <option value="1">Listening...</option>
+                    <option value="2">Watching...</option>
+                </select>
+                <p>Show: <input type="checkbox" name="enabled" id="enabled"></p>
+                <p class="tho" title="Some apps, like discord, can be minimized. to prevent displaying those apps, i disabled this option for such apps">Show anyways: <input disabled type="checkbox" name="tho" id="tho"></p>
+                <p>Details</p>
+                <textarea name="desc" id="desc"></textarea>
+            </div>
+
+            <pre>
+Descripción: [Área de texto multilínea]
+[Eliminar]  [Restablecer valores predeterminados]
+(Restablecer solo visible si el proceso está en defaultJson)
+(Eliminar bloqueado si el proceso está en defaultJson)
+            </pre>
+        </div>
+        <div class="column processes">
+        </div>
+        <div class="column processes active">
+        </div>
+
+    </div>
+
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -64,29 +64,18 @@ You cant right now.
 <details>
 <summary>Idea (dont read plz)</summary>
 <details>
-<summary>Menu de Configuración de Proceso</summary>
+<summary>Como va a andar</summary>
 <pre>
-┌─────────────────────────────────────────────────────────────────────────┐
-│  [Foto/Icono del proceso]                                               │
-│                                                                         │
-│  Nombre: [Nombre del proceso]                                           │
-│                                                                         │
-│  Tipo: [Selector: Jugando, Escuchando, etc.]                            │
-│                                                                         │
-│  Hora de inicio: [Selector de fecha/hora]                               │
-│                                                                         │
-│  Mostrar: [Enable/Disable]                                              │
-│                                                                         │
-│  Mostrar a pesar de ser minimizable: [Checkbox grisado]                 │
-│    (Solo disponible para apps como Steam/Telegram)                      │
-│    (Cuando está desactivado, bloquea "Mostrar" en Disable)              │
-│                                                                         │
-│  Descripción: [Área de texto multilínea]                                │
-│                                                                         │
-│  [Eliminar]  [Restablecer valores predeterminados]                      │
-│    (Restablecer solo visible si el proceso está en defaultJson)         │
-│    (Eliminar bloqueado si el proceso está en defaultJson)               │
-└─────────────────────────────────────────────────────────────────────────┘
+Primero que todo se va a tener que usar un appID generico
+Si tenes discord, tnes developer account
+poner en APP NAME siempre YARPM con un tick "Custom Name" siendo este actibable para poner una APPID
+la custion esque va a haber un ?? para ver como conseguir uno y ponerle el name que quieras
+la idea seria poner gifa mostrando donde hacer click, y decir que para cada nombre debe poner un appID diferente, y no debe ser muy dificil dado que tampoco vas a estar usando tantas apps lol
+entonces: use YARPM or custom when issued
+everything else is ok
+should also store it on defaultJSON?
+i dont think so, maybe tener el coso puesto pero vacio, y a la hora de copiarlo al userJSON se le agrega el default (no existe = crear, existeVacio = rellenar)
+
 </pre>
 </details>
 Lista de procesos soportados/agregados que alguna vez han estado activos

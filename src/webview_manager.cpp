@@ -12,7 +12,7 @@ WebviewManager::WebviewManager(int width, int height, const std::string &title)
     //cpp js comms
     setupBindings();
     //open file
-    std::string path = std::filesystem::absolute("index.html");
+    std::string path = std::filesystem::absolute("src/web/index.html");
     w.navigate("file://" + path);
 }
 

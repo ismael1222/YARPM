@@ -1,19 +1,19 @@
 {
     "firefox": {
-        "desc": "Firefox browser",
+        "details": "Firefox browser",
+        "name": "Firefox",
         "enabled": false,
         "icon": "URL",
-        "name": "Firefox",
         "showDespiteTray": false,
         "start": null,
         "tray": true,
         "type": 0
     },
     "yarpm": {
-        "desc": "YARPM Settings menu",
+        "details": "YARPM Settings menu",
+        "name": "YARPM Settings",
         "enabled": false,
         "icon": "URL",
-        "name": "YARPM Settings",
         "showDespiteTray": false,
         "start": null,
         "tray": true,

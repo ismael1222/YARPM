@@ -6,11 +6,11 @@
         "start": null,
         "enabled": false,
         "Tray": false,
-        "desc": "Default testing process, should never be seen"
+        "details": "Default testing process, should never be seen"
     },
     "steam": {
         "name": "Steam",
-        "desc": "Steam app",
+        "details": "Steam app",
         "icon": "URL",
         "type": 0,
         "start": null,
@@ -20,7 +20,7 @@
     },
     "firefox": {
         "name": "Firefox",
-        "desc": "Firefox browser",
+        "details": "Firefox browser",
         "icon": "URL",
         "type": 0,
         "start": null,
@@ -30,7 +30,7 @@
     },
     "yarpm":{
                 "name": "YARPM Settings",
-        "desc": "YARPM Settings menu",
+        "details": "YARPM Settings menu",
         "icon": "URL",
         "type": 0,
         "start": null,
