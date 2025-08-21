@@ -1,8 +1,22 @@
-# YARPM
+# YARPM (ON HOLD)
 
 Yet Another Rich Presence Manager, duh.
 
-This time it works, not like the others 😒
+~~This time it works, not like the others 😒~~
+
+I Have Become What I Swore to Destroy
+
+## newz
+
+Bad news people. discord's SDK is for Javascript. and uhh, this doesn't use javascript that way
+
+What this means? the project will be on hold while i develop a lib for comms between c++ and discord
+
+But hey, this project was "Let's see what can  do with c++" and this obstacle is just another step on discovering my capabilities.
+
+What can you do:
+
+If you know c++, you could throw an eye at the new repo ill do for the lib.
 
 ## Backstory
 

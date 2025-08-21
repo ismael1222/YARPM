@@ -9,10 +9,29 @@
 </head>
 
 <body>
-        <div class="appID" id="appID">
-            <button>kk done</button>
-            <center>Le big tutoriale: <br>custom name</center>
-        </div>
+    <div class="appID" id="appID">
+        <button onclick="exitTuto()">kk done</button>
+        <center>
+            <p>How to set a custom name</p>
+            <p>Summary: open discord developer, click create app, chose name, copypaste ID, done</p>
+            <p> Step by step below (with images :o)</p>
+            <h3>Step 1:</h3>
+            <p>Enter Discord Developer portal</a></p>
+            <button id="copy" onclick="copyLink()">Click to Copy link</button><br>
+            <p>Login if not logged in</p>
+            <h3>Step 2</h3>
+            <p>Top right: click "New Application"</p>
+            <p>Chose a name for your app</p>
+            <h3>Step 3</h3>
+            <p>Dont freak out. Copy the Application ID you see there, right below "Tags" and "Description" thing</p>
+            <h3>Done. <br> Use that AppID to name apps the same as the AppID's name you chose</h3>
+            <p id="bad">This means you need to create an app for every app, OR, use generic names. <br>
+                Like, you could use the same appID named "Browser" for Firefox, Chrome, Brave and Opera, while still
+                having different image, details and type. <br> Maybe an app name "Gaming" for all your games, and the
+                Details part you put the name, or a meme about that game</p>
+            <textarea id="link">https://discord.com/developers/applications</textarea>
+        </center>
+    </div>
     <div class="container" id="main">
         <div class="column settings">
             <div class="card title">
@@ -23,7 +42,7 @@
             <div class="card minheight">
                 <p>PhotoURL:</p>
                 <input type="url" name="PhotoURL" id="PhotoURL">
-                <p><a onclick="showAppId()">AppID:</a></p>
+                <p><a onclick="enterTuto()">AppID:</a></p>
                 <input type="text" name="name" id="name">
                 <p>Type</p>
                 <select name="type" id="type">
@@ -32,16 +51,14 @@
                     <option value="2">Watching...</option>
                 </select>
                 <p>Show: <input type="checkbox" name="enabled" id="enabled"></p>
-                <p class="tho" title="Some apps, like discord, can be minimized. to prevent displaying those apps, i disabled this option for such apps">Show anyways: <input disabled type="checkbox" name="tho" id="tho"></p>
+                <p class="tho"
+                    title="Some apps, like discord, can be minimized. to prevent displaying those apps, i disabled this option for such apps">
+                    Show anyways: <input disabled type="checkbox" name="tho" id="tho"></p>
                 <p>Details</p>
                 <textarea name="desc" id="desc"></textarea>
             </div>
-
             <pre>
-Descripción: [Área de texto multilínea]
-[Eliminar]  [Restablecer valores predeterminados]
-(Restablecer solo visible si el proceso está en defaultJson)
-(Eliminar bloqueado si el proceso está en defaultJson)
+[Delete]
             </pre>
         </div>
         <div class="column processes">
